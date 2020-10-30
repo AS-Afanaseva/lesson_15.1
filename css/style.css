@@ -161,6 +161,7 @@ textarea {
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
+  font-size: 22px;
   line-height: 150%;
   text-align: center;
   color: #182c51;
@@ -259,6 +260,8 @@ textarea {
   font-size: 28px;
   line-height: 42px;
   line-height: 42px;
+  margin: 0px 0px 30px 0px;
+  margin-bottom: 30px;
   color: #00293f;
 }
 
@@ -387,6 +390,7 @@ textarea {
 .servises__image {
   height: 164px;
   margin: 0px 0px 25px 0px;
+  margin-bottom: 25px;
 }
 
 .servises__image img {
@@ -395,12 +399,14 @@ textarea {
 
 .servises__subtitle {
   margin: 0px 0px 15px 0px;
+  margin-bottom: 15px;
 }
 
 .servises__text {
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
+  font-size: 16px;
   font-size: 16px;
   line-height: 150%;
   text-align: center;
@@ -509,6 +515,7 @@ textarea {
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
+  font-size: 16px;
   font-size: 16px;
   line-height: 150%;
   color: #5a5a5a;
@@ -807,7 +814,11 @@ textarea {
   }
 
   .title {
-    font-size: calc(14px + 14 * ((100vw - 320px) / 790));
+    font-size: calc(22px + 6 * ((100vw - 320px) / 790));
+  }
+
+  .subtitle {
+    font-size: calc(18px + 4 * ((100vw - 320px) / 790));
   }
 
   .header__container {
@@ -832,6 +843,10 @@ textarea {
 
   .advantages__title {
     line-height: calc(28px + 14 * ((100vw - 320px) / 790));
+  }
+
+  .advantages__title {
+    margin-bottom: calc(15px + 15 * ((100vw - 320px) / 790));
   }
 
   .advantages__text {
@@ -878,6 +893,18 @@ textarea {
     padding-bottom: calc(20px + 20 * ((100vw - 320px) / 790));
   }
 
+  .servises__image {
+    margin-bottom: calc(15px + 10 * ((100vw - 320px) / 790));
+  }
+
+  .servises__subtitle {
+    margin-bottom: calc(10px + 5 * ((100vw - 320px) / 790));
+  }
+
+  .servises__text {
+    font-size: calc(14px + 2 * ((100vw - 320px) / 790));
+  }
+
   .book {
     padding-top: calc(15px + 60 * ((100vw - 320px) / 790));
   }
@@ -895,7 +922,7 @@ textarea {
   }
 
   .software__title {
-    margin-bottom: calc(5px + 40 * ((100vw - 320px) / 790));
+    margin-bottom: calc(15px + 30 * ((100vw - 320px) / 790));
   }
 
   .software__body {
@@ -936,6 +963,10 @@ textarea {
 
   .software__image {
     margin-bottom: calc(10px + 5 * ((100vw - 320px) / 790));
+  }
+
+  .software__text {
+    font-size: calc(14px + 2 * ((100vw - 320px) / 790));
   }
 
   .portfolio {
@@ -1116,10 +1147,6 @@ textarea {
     margin: 0px 0px 15px 0px;
     margin-bottom: 15px;
   }
-
-  .book__button {
-    width: 100%;
-  }
 }
 
 @media (max-width: 865px) and (max-width: 1110px) {
@@ -1216,6 +1243,10 @@ textarea {
 }
 
 @media (max-width: 628px) {
+  .portfolio__button {
+    width: 100%;
+  }
+
   .item-portfolio__row {
     display: block;
   }
@@ -1261,7 +1292,7 @@ textarea {
 }
 
 @media (max-width: 426px) {
-  .portfolio__button {
+  .book__button {
     width: 100%;
   }
 }
